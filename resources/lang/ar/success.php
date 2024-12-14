@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'thank_you' => 'شكرا لك. تم استلام طلبك.',
+    'order_invoice' => 'فاتورة الطلب',
+    'order_number' => 'رقم الطلب',
+    'date' => 'التاريخ',
+    'total' => 'المجموع',
+    'payment_method' => 'طريقة الدفع',
+    'order_details' => 'تفاصيل الطلب',
+    'subtotal' => 'المجموع الفرعي',
+    'discount' => 'الخصم',
+    'shipping' => 'الشحن',
+    'grand_total' => 'الإجمالي',
+    'delivery' => 'التوصيل',
+    'estimated_delivery' => 'التسليم المتوقع',
+    'go_back_shopping' => 'العودة للتسوق',
+    'view_my_orders' => 'عرض طلباتي',
+    'customer_name' => 'اسم العميل',
+    'email' => 'البريد الإلكتروني',
+    'phone' => 'الهاتف',
+    'address' => 'العنوان',
+    'city' => 'المدينة',
+    'country' => 'البلد',
+];

@@ -1,7 +1,6 @@
 <?php
 
 return [
-
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -78,7 +77,17 @@ return [
     |
     */
 
+    'direction' => 'ltr', // Default direction
+'supported_locales' => 'en|ar',  // Piped string of supported languages
+
     'locale' => env('APP_LOCALE', 'en'),
+
+   // 'available_locales' => ['en', 'ar'],
+    'available_locales' => [
+    'en' => 'English',
+    'ar' => 'العربية',
+],
+
 
     'fallback_locale' => env('APP_FALLBACK_LOCALE', 'en'),
 
@@ -122,5 +131,6 @@ return [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
+
 
 ];

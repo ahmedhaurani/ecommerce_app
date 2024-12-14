@@ -1,0 +1,77 @@
+.menu-item.separator:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0; /* Adjust the color to your preference */
+    margin-bottom: 5px; /* Optional: Adjust spacing as needed */
+    padding-bottom: 5px; /* Optional: Adjust spacing as needed */
+}
+/* .big-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.grid-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+.big-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.grid-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-unstyled {
+    padding-left: 0;
+}
+.list-unstyled .card {
+    margin-bottom: 20px;
+}
+.bg-gray {
+    background: #ececec;
+}
+/* public/css/custom.css */
+
+.news-article {
+    margin-bottom: 20px;
+}
+
+.news-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Adjust the max height as needed */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.news-content {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.social-share h5 {
+    margin-bottom: 10px;
+}
+
+.social-share .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
